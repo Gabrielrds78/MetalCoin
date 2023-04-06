@@ -31,7 +31,7 @@
   </head>
   <body>
     <nav class="nav_bar">
-      <a class="nav_text" href="">HOME</a>
+      <a class="nav_text" href="index.php">HOME</a>
     </nav>
     <div class="div_tela">
         <form action="crud/cad_usuario.php" method="post" id="formulario">

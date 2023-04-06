@@ -47,7 +47,7 @@ echo "</pre>";
                                 </div>
                                 <div class="userData ml-3">
                     
-                                    <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a href="javascript:void(0);"><?php echo $resultado[0]['usuario'] ?></a></h2>
+                                    <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a href="javascript:void(0);"><?php echo $resultado[0]['login'] ?></a></h2>
                                 </div>
                                 <div class="ml-auto">
                                     <input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Discard Changes" />

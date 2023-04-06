@@ -19,8 +19,8 @@ if (empty($rowTable)) {
     if(!isset($_SESSION)) {
         session_start();
     }
-    $_SESSION['idadmin_usuario'] = $sessao['idusuario'];
-    $_SESSION['email'] = $sessao['email'];
+    $_SESSION['idusuario'] = $sessao['idusuario'];
+    $_SESSION['login'] = $sessao['login'];
     $_SESSION['adm'] = $sessao['adm'];
 
     header("Location: listarUsuarios.php");
